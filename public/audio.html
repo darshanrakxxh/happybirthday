@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html style="padding-top: 15%;">
+<head>
+    <title>feel it rakshitha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <style>
+ body{
+  background: linear-gradient(300deg, #C5FFF8,white,#f1b6faf3);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+ }
+@keyframes gradient-animation {
+0% {
+background-position: 0% 50%;
+}
+50% {
+background-position: 100% 50%;
+}
+100%{
+background-position: 0% 50%;
+}
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  .card {
+    position: relative;
+    background: linear-gradient(300deg, #C5FFF8,white,rgb(240, 240, 156));
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    opacity:calc();
+  }
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing:auto;
+  font-weight:500;
+  font-style: normal;
+} 
+.content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    .text-containere {
+      font-family: Caveat, cursive;
+      font-size: 2em;
+      color: rgba(9, 9, 9, 0.8); /* Transparent white */
+      text-align: center;
+      animation: fadeIn 5s ease forwards;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    @media (max-width: 768px) {
+      .text-containere {
+        font-size: 2.5em;
+      }
+    }
+</style>
+</head>
+<body>
+  <div class="content">
+    <div class="text-containere">
+        <p class="text-containere">Happy Wishes✨</p>
+    </div>
+    <div class="container">
+     <div class="card">
+        <h1 class="dancing-script">I Feel it🫶🏼</h1>
+    <audio controls src="../assets/audio/Munjaane Manjalli - Raghu Dixit.m4a">
+    </div>
+    <div class="card">
+        <h1 class="dancing-script">This fills u me a lot Rakshitha 😄</h1>
+    <audio controls src="../assets/audio/Kanna Haniyondu - Raghu Dixit.m4a">
+    </div>
+    <div class="card">
+      <h1 class="dancing-script">Preetiya Hesare Neenu🥰</h1>
+  <audio controls src="../assets/audio/Preetiya Hesare Neenu - Raghu Dixit.m4a">
+  </div>
+    </div>
+</body>
+</html>
